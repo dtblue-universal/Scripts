@@ -1,3 +1,5 @@
+local user = game.Players:FindFirstChild(_G.Username)
+
 if user then
 	local displayName = user.DisplayName
 	local customDisplayName = user.DisplayName .. " " .. _G.Cn
