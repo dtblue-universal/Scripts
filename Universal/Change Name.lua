@@ -1,3 +1,4 @@
+--lux
 local user = game.Players:FindFirstChild(_G.Username)
 
 if user then
