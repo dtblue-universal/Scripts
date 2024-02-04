@@ -11,3 +11,8 @@ if Player.Character then
 		end
 	end
 end
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "-- $ --";
+    Text = "Lux Scripts.";
+})
