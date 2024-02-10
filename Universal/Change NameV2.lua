@@ -1,18 +1,23 @@
+local Player = game.Players.LocalPlayer 
+
 if Player.Character then
-    if Player.Character[_G.Username].Name == 'Players' then
-        if _G.Crown then
-            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
-        elseif _G.Verified then
-            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[☑]' .. Player.DisplayName)
-        elseif _G.Star then
-            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
-        elseif _G.StarLegend then
-            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]' .. Player.DisplayName)
+    if Player.Name == _G.Username then
+        local humanoid = Player.Character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            if _G.Crown then
+                humanoid.DisplayName = '[👑]' .. Player.DisplayName
+            elseif _G.Verified then
+                humanoid.DisplayName = '[☑]' .. Player.DisplayName
+            elseif _G.Star then
+                humanoid.DisplayName = '[⭐]' .. Player.DisplayName
+            elseif _G.StarLegend then
+                humanoid.DisplayName = '[🌟]' .. Player.DisplayName
+            end
         end
     end
 end
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "-- $ --";
-    Text = "LuxScripts.";
+    Title = "-- $ --",
+    Text = "LuxScripts."
 })
