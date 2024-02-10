@@ -1,4 +1,4 @@
-getgenv().keytoclick = "_G.Keybind"
+getgenv().keytoclick = _G.Keybind
 local tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Name = "Unlocked"
