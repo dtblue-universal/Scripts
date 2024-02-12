@@ -251,13 +251,13 @@ Lux10:NewDropdown(
 	getgenv().AimPart = Lux56
 end
 )
-local Lux57 = Lux8:NewTab("Silent Aim (Patched)")
+local Lux57 = Lux8:NewTab("Silent Aim")
 local Lux58 = Lux57:NewSection("𝐋𝐮𝐱𝐒𝐜𝐫𝐢𝐩𝐭𝐬.")
 Lux58:NewButton(
-    "Silent Aim (Patched Dont Use)",
+    "Silent Aim",
     "Silent Aim Toggle Key is T.",
     function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dtblue-universal/Scripts/main/SilentAim.lua", true))()
 end
 )
 Lux58:NewTextBox(
@@ -321,7 +321,7 @@ Lux64:NewButton(
 	local Lux74 = true
 	function anunciar_atentado_terrorista(Lux75)
 		Lux66:SetCore("SendNotification", {
-			Title = "anti lock fix",
+			Title = "Anti Lock Fix",
 			Text = Lux75
 		})
 	end
