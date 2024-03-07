@@ -14,4 +14,4 @@ _G.Haze = 10 -- atmosphere haze (0 to 10)
 -- Glare = 0.61
 -- Haze = 10 
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/dtblue-universal/Scripts/main/Universal/Fog%20Changer.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/dtblue-universal/Scripts/main/Main/Loader/Fog%20Changer.lua'))()
