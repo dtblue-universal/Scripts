@@ -6,4 +6,4 @@ if destroy then
 	destroy:Destroy()
 end
 
-local a=function()local b=game:GetService("Lighting")local c=Instance.new("Atmosphere")c.Archivable=_G.Archivable c.Name="Luscrpt. | Fog Changer" c.Density=_G.Density c.Offset=_G.Offset c.Color=_G.Color c.Decay=_G.Decay c.Glare=_G.Glare c.Haze=_G.Haze c.Parent=b end a()
+local a=function()local b=game:GetService("Lighting")local c=Instance.new("Atmosphere")c.Archivable=_G.Archivable c.Name="LuxScript. | Fog Changer" c.Density=_G.Density c.Offset=_G.Offset c.Color=_G.Color c.Decay=_G.Decay c.Glare=_G.Glare c.Haze=_G.Haze c.Parent=b end a()
