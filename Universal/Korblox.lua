@@ -1,3 +1,5 @@
+-- put this on auto-exe or nah
+
 local ply = game.Players.LocalPlayer
         local chr = ply.Character
         chr.RightLowerLeg.MeshId = "902942093"
